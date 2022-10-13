@@ -2,7 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-
+import img from "public/jisu.png";
+import img2 from "public/macbook.png";
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -12,17 +13,33 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header className={styles.header}>
+        <ul className={styles.ul}>
+          <li className={styles.li}> <a href="http://localhost:3000/">HOME</a> </li>
+          <li className={styles.li}> <a href="http://localhost:3000/study">STUDY</a> </li>
+          <li className={styles.li}> <a href="http://localhost:3000/project">PROJECT</a> </li>
+          <li className={styles.li}> <a href="http://localhost:3000/skill">SKILL</a> </li>
+          <li className={styles.li}> <a href="http://localhost:3000/hobby">HOBBY</a> </li>
+        </ul>
+      </header>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          안녕하세요, <a href="">여지수</a> 입니다!
-          {/* 개인 링크 추가하기 */}
-        </h1>
 
+        
+        <h1 className={styles.title}>
+         <div>
+            Hello, I'm <a href="">jisu</a> 
+          </div>
+            <span className={styles.hide}>
+            <Image src={img2} alt="Vercel Logo" width={400} height={500}  />
+            </span>
+            <Image src={img} alt="Vercel Logo" width={300} height={500}  />
+        </h1>
         <p className={styles.description}>
         저는 현재 부산대학교 3학년 2학기를 재학 중입니다. <br></br>
          새로운 기술들을 사용해 보는 걸 좋아하고, <br></br>
          그 기술들로 많은 사람들에게 도움을 주고 싶어합니다. 
         </p>
+      
 
         <div className={styles.grid}>
           <a href="https://github.com/YeoJiSu" className={styles.card}>
