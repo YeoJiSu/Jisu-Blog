@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #EC7211;
   text-decoration: none;
 }
 
@@ -88,8 +88,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #EC7211;
+  border-color: #EC7211;
 }
 
 .card h2 {
@@ -118,10 +118,10 @@
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {
-    border-color: #222;
+    border-color: #0972D3;
   }
   .code {
-    background: #111;
+    background: #0972D3;
   }
   .logo img {
     filter: invert(1);
