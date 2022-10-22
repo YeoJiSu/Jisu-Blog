@@ -10,7 +10,7 @@ const linkStyle = {
 }
 const Header = () => {
     return (
-        <div>
+        <div className={styles.head}>
             {/* <Link href="/"><a style={linkStyle}>JiSu</a></Link>
             <Link href="/https://github.com/YeoJiSu"><a style={linkStyle}>깃헙</a></Link>
             <Link href="/https://github.com/YeoJiSu"><a style={linkStyle}>깃헙</a></Link> */}

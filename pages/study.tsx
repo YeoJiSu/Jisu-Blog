@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      
+      {/* <iframe id="big" src="https://velog.io/@diduya"></iframe> */}
     </div>
   );
 };

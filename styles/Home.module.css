@@ -2,7 +2,10 @@
   padding-top: 75px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+.head{
+  padding-left: 20%;
+  padding-right: 20%;
+}
 .header{
   display: flex;
   flex: 1;
@@ -12,9 +15,7 @@
   font-size: 30px;
   position: fixed;
   top: 0;
-  width: 100%;
-  left: 0;
-  right: 0;;
+  width: 60%;
   background-color: #232F3E;
   z-index: 100;
 }
