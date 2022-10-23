@@ -4,29 +4,30 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import img from "public/jisu.png";
 import img2 from "public/network.png";
+import img3 from "public/start.jpg";
 import Layout from '../components/Layout';
+
 
 const Home: NextPage = () => {
   return (
     <Layout>
     <div className={styles.container}>
-      
-
       <main className={styles.main}>
-        <h1 className={styles.title}>
-         <div>
-            Hello, I'm <a href="">jisu</a> 
+        <div className={styles.div1}>
+          <div className={styles.div2}>
+            <Image className={styles.img3} src={img3} alt="Vercel Logo" width={150} height={150}  />
+          </div> 
+          <div className={styles.div3}>
+            <p className= {styles.div4}>
+              jisu Yeo
+            </p>
+            <p className={styles.div5}>
+              저는 현재 부산대학교 3학년 2학기를 재학 중입니다. <br></br>
+              새로운 기술들을 사용해 보는 걸 좋아하고, <br></br>
+             그 기술들로 많은 사람들에게 도움을 주고 싶어합니다. 
+            </p>
           </div>
-            <span className={styles.hide}>
-            <Image src={img2} alt="Vercel Logo" width={500} height={350}  />
-            </span>
-            <Image src={img} alt="Vercel Logo" width={200} height={350}  />
-        </h1>
-        <p className={styles.description}>
-        저는 현재 부산대학교 3학년 2학기를 재학 중입니다. <br></br>
-         새로운 기술들을 사용해 보는 걸 좋아하고, <br></br>
-         그 기술들로 많은 사람들에게 도움을 주고 싶어합니다. 
-        </p>
+        </div>
       
 
         <div className={styles.grid}>
