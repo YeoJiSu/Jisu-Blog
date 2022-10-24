@@ -11,7 +11,7 @@ const linkStyle = {
 const Header = () => {
     return (
        
-    
+    <div>
             <header className={styles.header}>
                 <div class = {styles.head}>
                     <a href=""> <Image src={img} className={styles.logo} alt="jisutagram" width={120} height={30}  /> </a>
@@ -23,7 +23,24 @@ const Header = () => {
                     </ul>
                 </div>
             </header>
-
+        <div className={styles.header2}>
+            <div className={styles.div1}>
+                <div className={styles.div2}>
+                  <Image className={styles.img3} src={img3} alt="Vercel Logo" width={170} height={170}  />
+                </div> 
+                <div className={styles.div3}>
+                  <p className= {styles.div4}>
+                    jisu Yeo
+                  </p>
+                  <p className={styles.div5}>
+                    저는 현재 부산대학교 3학년 2학기를 재학 중입니다. <br></br>
+                    새로운 기술들을 사용해 보는 걸 좋아하고, <br></br>
+                   그 기술들로 많은 사람들에게 도움을 주고 싶어합니다. 
+                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
     );
 };
 
