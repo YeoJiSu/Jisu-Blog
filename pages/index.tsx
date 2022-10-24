@@ -33,17 +33,7 @@ const Home: NextPage = () => {
             <p>기획/촬영/편집 모두 직접하며 SW 공부를 하는 일상 내용을 주된 컨텐츠로 영상을 제작하고 있습니다.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>📧 Contact &rarr;</h2>
-            <p>
-            📭 yeoji1503@gmail.com<br></br>
-            📭 duwltn1301@pusan.ac.kr
-            📭 duwltn1301@naver.com
-            </p>
-          </a>
+          
         </div>
       </main>
 
