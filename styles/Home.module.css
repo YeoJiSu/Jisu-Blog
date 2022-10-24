@@ -72,8 +72,13 @@
   font-size: 2rem;
 }
 .div5{
-  
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #EC7211;
 }
+.div6{
+  margin:2px;
+;}
 
 .hide{
   left: 30%;
