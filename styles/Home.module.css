@@ -72,7 +72,11 @@
   font-size: 2rem;
 }
 .div5{
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  border-style: dotted;
+  border-radius: 1rem;
+  text-align: center;
+  width:130px;
   font-style: italic;
   color: #EC7211;
 }

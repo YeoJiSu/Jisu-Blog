@@ -26,14 +26,18 @@ const Header = () => {
         <div className={styles.header2}>
             <div className={styles.div1}>
                 <div className={styles.div2}>
-                  <Image className={styles.img3} src={img3} alt="jisu" width={150} height={150}  />
+                  <a href="/"> 
+                    <Image className={styles.img3} src={img3} alt="jisu" width={150} height={150}  />
+                  </a>
                 </div> 
                 <div className={styles.div3}>
                   <p className= {styles.div4}>
                     jisu Yeo
                   </p>
                   <p className={styles.div5}>
-                    '솔루션 아키텍트'가 되고 싶은 여지수입니다.
+                    <a href="https://www.notion.so/Jisu-Yeo-e96cc8aa907c4bda946831f855adf6ac"> 
+                      Portfolio
+                    </a>
                   </p>
                   
                   <p className={styles.div6}>
