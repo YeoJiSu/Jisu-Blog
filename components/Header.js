@@ -41,7 +41,7 @@ const Header = () => {
                   </p>
                   
                   <p className={styles.div6}>
-                    📭 yeoji1503@gmail.com
+                    📭 duwltn1301@pusan.ac.kr
                   </p>
                   <p className={styles.div6}>
                     📱 010-0000-0000
