@@ -25,6 +25,7 @@ const Header = () => {
         </header>
         <div className={styles.header2}>
             <div className={styles.div1}>
+              
                 <div className={styles.div2}>
                   <a href="/"> 
                     <Image className={styles.img3} src={img3} alt="jisu" width={150} height={150}  />
@@ -41,10 +42,12 @@ const Header = () => {
                   </p>
                   
                   <p className={styles.div6}>
+                    <a href="mailto:duwltn1301@pusan.ac.kr">
                     📭 duwltn1301@pusan.ac.kr
+                    </a>
                   </p>
                   <p className={styles.div6}>
-                    📱 010-0000-0000
+                    📱 010-2542-3650
                   </p>
                 </div>
             </div>

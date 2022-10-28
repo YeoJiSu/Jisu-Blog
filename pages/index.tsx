@@ -17,12 +17,12 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
           <a href="https://github.com/YeoJiSu" className={styles.card}>
             <h2>🐱 Github &rarr;</h2>
-            <p>대학교에서 배우고, 실습한 내용들과 토이 프로젝트들을 정리해둔 저장소 입니다.</p>
+            <p> Repositories of contents that I learned and practiced in PNU and Toy projects.</p>
           </a>
 
           <a href="https://velog.io/@diduya" className={styles.card}>
             <h2>🍀 Velog &rarr;</h2>
-            <p>공부한 내용들, 이슈 해결 과정 등을 기록하는 개인 기술 블로그 입니다.</p>
+            <p>My Personal Software Engineering blog that records what I have studied, the process of solving issues, etc.</p>
           </a>
 
           <a
@@ -30,7 +30,12 @@ const Home: NextPage = () => {
             className={styles.card}
           >
             <h2>📹 YouTube &rarr;</h2>
-            <p>기획/촬영/편집 모두 직접하며 SW 공부를 하는 일상 내용을 주된 컨텐츠로 영상을 제작하고 있습니다.</p>
+            <p>Plan, Shoot, Edit, Post the video myself. I'm making a video with the main contents of my daily life studying SoftWare.</p>
+          </a>
+
+          <a href="/hobby" className={styles.card}>
+            <h2>🤷🏻‍♀️ Hobby &rarr;</h2>
+            <p> I have hobbies such as horseback riding, baking, drawing, and playing the piano. </p>
           </a>
 
           
