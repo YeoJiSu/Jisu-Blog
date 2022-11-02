@@ -1,10 +1,5 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import img from "public/jisu.png";
-import img2 from "public/network.png";
-import img3 from "public/start.jpg";
 import Layout from '../components/Layout';
 
 
@@ -30,12 +25,12 @@ const Home: NextPage = () => {
             className={styles.card}
           >
             <h2>📹 YouTube &rarr;</h2>
-            <p>Plan, Shoot, Edit, Post the video myself. I'm making a video with the main contents of my daily life studying SoftWare.</p>
+            <p> My YouTube channel that I plan, film, edit, and upload videos myself. I'm making a video with the main contents of my daily life studying SoftWare.</p>
           </a>
 
           <a href="/hobby" className={styles.card}>
             <h2>🤷🏻‍♀️ Hobby &rarr;</h2>
-            <p> I have hobbies such as horseback riding, baking, drawing, and playing the piano. </p>
+            <p> I have hobbies such as horseback riding, baking, drawing, photography, and playing the piano. </p>
           </a>
 
           
